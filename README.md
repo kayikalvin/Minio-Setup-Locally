@@ -11,7 +11,7 @@ This project uses **MinIO** as a local S3-compatible storage for testing and dev
 Open **CMD** and run:
 
 ```cmd
-mkdir "C:\Users\Alvin Kayi\Desktop\minio-data"
+mkdir "C:\Users\Name\Desktop\minio-data"
 ```
 
 This folder will persist your files even if the container is stopped or restarted.
