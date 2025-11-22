@@ -23,7 +23,7 @@ This folder will persist your files even if the container is stopped or restarte
 Run the following one-liner in **CMD**:
 
 ```cmd
-docker run -d --name minio -p 9000:9000 -p 9001:9001 -e MINIO_ROOT_USER=admin -e MINIO_ROOT_PASSWORD=admin123 -v "C:\Users\Alvin Kayi\Desktop\minio-data:/data" minio/minio server /data --console-address ":9001"
+docker run -d --name minio -p 9000:9000 -p 9001:9001 -e MINIO_ROOT_USER=admin -e MINIO_ROOT_PASSWORD=admin123 -v "C:\Users\Name\Desktop\minio-data:/data" minio/minio server /data --console-address ":9001"
 ```
 
 * `9000` → S3 API endpoint
@@ -86,7 +86,7 @@ print(objects)
 ## **Notes**
 
 * MinIO is **lightweight** and works on Windows without any Linux emulation.
-* Data persists in `C:\Users\Alvin Kayi\Desktop\minio-data`.
+* Data persists in `C:\Users\Name\Desktop\minio-data`.
 * Fully **S3-compatible**, so you can use it with Python, FastAPI, Node.js, or any S3 library.
 * For production, use proper credentials and secure the Web Console.
 
