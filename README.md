@@ -1,9 +1,5 @@
 # Minio-Setup-Locally
 
-Perfect! Here’s a **clean, ready-to-add version for your GitHub repo** — includes instructions, Docker command, and Python test snippet. You can put this in a `README.md` or a setup guide.
-
----
-
 # **Local MinIO Setup (Windows)**
 
 This project uses **MinIO** as a local S3-compatible storage for testing and development.
@@ -96,6 +92,5 @@ print(objects)
 
 ---
 
-If you want, I can also create a **ready-to-use GitHub folder structure** with a `docker-compose.yml` and `example.py` so anyone can clone your repo and run MinIO immediately.
 
 Do you want me to do that?
